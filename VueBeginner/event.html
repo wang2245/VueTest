@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+	</head>
+	<body>
+		<div id="app">
+			<button id="btnTest" v-on:click.once="warn('Form cannot be submitted yet.')">Button</button>
+		</div>
+	</body>
+</html>
+<script>
+	var vm = new Vue({
+		el:'#app',
+		methods:{			
+			warn:function(message)
+			{
+				alert(message);
+			}
+		}
+	});
+</script>

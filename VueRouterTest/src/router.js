@@ -5,16 +5,16 @@ const routers = [
 	{
 		path:'/home',
 		name:'home',
-		components:Home
+		component:Home
 	},
 	{
 		path:'/about',
 		name:'about',
-		components:About
+		component:About
 	},
 	{
 		path:'/',
-		components:Home
+		component:Home
 	}
 ]
 
